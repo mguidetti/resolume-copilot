@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 239.0, 260.0, 1441.0, 713.0 ],
+		"rect" : [ 700.0, 408.0, 1441.0, 713.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -1143,9 +1143,9 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 913.0, 322.0, 126.0, 36.0 ],
 					"restore" : 					{
-						"flonum" : [ 2000.0 ],
-						"flonum[1]" : [ 30.0 ],
-						"toggle" : [ 0 ],
+						"flonum" : [ 120.0 ],
+						"flonum[1]" : [ 500.0 ],
+						"toggle" : [ 1 ],
 						"toggle[1]" : [ 0 ]
 					}
 ,
@@ -2358,21 +2358,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "chaos mode layer UI v2.maxpat",
-				"bootpath" : "~/Downloads/Copilot 0.7-edit",
+				"bootpath" : "E:/MESH/Max/resolume-copilot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cop_presets.json",
-				"bootpath" : "~/Downloads/Copilot 0.7-edit",
+				"bootpath" : "E:/MESH/Max/resolume-copilot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "osci_prefs",
-				"bootpath" : "~/Downloads/Copilot 0.7-edit",
+				"bootpath" : "E:/MESH/Max/resolume-copilot",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
