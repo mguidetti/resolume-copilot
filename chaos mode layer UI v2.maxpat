@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 825.0, 502.0, 1052.0, 859.0 ],
+		"rect" : [ 1050.0, 471.0, 1052.0, 859.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -582,7 +582,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 5.0, 589.0, 305.0, 22.0 ],
 					"style" : "",
-					"text" : "/composition/layers/1/clips/29/connect 1"
+					"text" : "/composition/layers/1/clips/0/connect 1"
 				}
 
 			}
@@ -626,15 +626,15 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 618.0, 87.0, 120.0, 50.0 ],
+					"patching_rect" : [ 716.0, 347.0, 187.0, 22.0 ],
 					"restore" : 					{
 						"beatint" : [ 4 ],
 						"duration" : [ 500 ],
@@ -767,6 +767,19 @@
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"varname" : "layernum"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"handoff" : "",
+					"hilite" : 0,
+					"id" : "obj-78",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"patching_rect" : [ 0.0, 0.0, 544.0, 44.0 ]
 				}
 
 			}
