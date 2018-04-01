@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "OSCTimeTag" ],
+					"patching_rect" : [ 933.0, 657.0, 113.0, 22.0 ],
+					"style" : "",
+					"text" : "OpenSoundControl"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-83",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -172,7 +185,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1077.0, 619.0, 34.0, 22.0 ],
+					"patching_rect" : [ 1140.0, 649.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "print"
 				}
@@ -1227,7 +1240,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1083.0, 671.0, 65.0, 22.0 ],
+					"patching_rect" : [ 1083.0, 691.0, 65.0, 22.0 ],
 					"style" : "",
 					"text" : "r sendport"
 				}
@@ -1242,7 +1255,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 978.0, 671.0, 80.0, 22.0 ],
+					"patching_rect" : [ 978.0, 691.0, 80.0, 22.0 ],
 					"style" : "",
 					"text" : "r hostchange"
 				}
@@ -1553,7 +1566,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 933.0, 730.0, 140.0, 22.0 ],
+					"patching_rect" : [ 933.0, 742.0, 140.0, 22.0 ],
 					"style" : "",
 					"text" : "udpsend 127.0.0.1 7000"
 				}
@@ -1689,7 +1702,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 933.0, 628.0, 51.0, 22.0 ],
+					"patching_rect" : [ 933.0, 603.0, 51.0, 22.0 ],
 					"style" : "",
 					"text" : "r output"
 				}
@@ -2053,6 +2066,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
@@ -2118,16 +2138,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-23", 0 ],
+					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-42", 0 ],
+					"order" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -2194,7 +2214,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
-					"midpoints" : [ 987.5, 701.0, 942.5, 701.0 ],
+					"midpoints" : [ 987.5, 731.0, 942.5, 731.0 ],
 					"source" : [ "obj-66", 0 ]
 				}
 
@@ -2202,7 +2222,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
-					"midpoints" : [ 1092.5, 707.0, 942.5, 707.0 ],
+					"midpoints" : [ 1092.5, 731.0, 942.5, 731.0 ],
 					"source" : [ "obj-67", 0 ]
 				}
 
@@ -2379,6 +2399,10 @@
 			}
 , 			{
 				"name" : "link.beat.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "OpenSoundControl.mxe64",
 				"type" : "mx64"
 			}
  ],
