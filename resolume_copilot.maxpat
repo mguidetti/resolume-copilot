@@ -74,7 +74,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1238.0, 578.0, 135.0, 22.0 ],
 					"style" : "",
-					"text" : "symbol \"IT WORKS\""
+					"text" : "symbol \"Preset 1\""
 				}
 
 			}
@@ -246,7 +246,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 982.5, 521.5, 111.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 433.5, 541.0, 89.0, 25.0 ],
+					"presentation_rect" : [ 433.5, 478.0, 89.0, 25.0 ],
 					"rounded" : 4.0,
 					"style" : "One Dark Button",
 					"text" : "Save As",
@@ -266,7 +266,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1114.5, 578.0, 105.0, 22.0 ],
 					"style" : "",
-					"text" : "symbol \"Preset 9\""
+					"text" : "symbol \"Preset 4\""
 				}
 
 			}
@@ -295,7 +295,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1238.0, 521.5, 104.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 338.5, 541.0, 89.0, 25.0 ],
+					"presentation_rect" : [ 338.5, 478.0, 89.0, 25.0 ],
 					"rounded" : 4.0,
 					"style" : "One Dark Button",
 					"text" : "Rename",
@@ -503,7 +503,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 576.0, 521.5, 111.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 433.5, 572.0, 89.0, 25.0 ],
+					"presentation_rect" : [ 433.5, 509.0, 89.0, 25.0 ],
 					"rounded" : 4.0,
 					"style" : "One Dark Button",
 					"text" : "Read",
@@ -524,7 +524,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 576.0, 710.0, 111.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 338.5, 572.0, 89.0, 25.0 ],
+					"presentation_rect" : [ 338.5, 509.0, 89.0, 25.0 ],
 					"rounded" : 4.0,
 					"style" : "One Dark Button",
 					"text" : "Write",
@@ -595,7 +595,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 465.0, 1010.5, 111.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 547.0, 635.25, 89.0, 25.0 ],
+					"presentation_rect" : [ 547.0, 568.25, 89.0, 25.0 ],
 					"rounded" : 4.0,
 					"style" : "One Dark Button",
 					"text" : "Reset",
@@ -657,7 +657,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 401.0, 627.0, 52.0, 22.0 ],
 					"style" : "",
-					"text" : "store 8"
+					"text" : "store 1"
 				}
 
 			}
@@ -671,7 +671,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 401.0, 521.5, 111.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 243.5, 541.0, 89.0, 25.0 ],
+					"presentation_rect" : [ 243.5, 478.0, 89.0, 25.0 ],
 					"rounded" : 4.0,
 					"style" : "One Dark Button",
 					"text" : "Save",
@@ -1237,7 +1237,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-122",
-					"items" : [ "wtf", ",", "Preset 1", ",", "OKOK", ",", "Preset 3", ",", "ok", ",", "Preset 5", ",", "nah", ",", "wtf", ",", "IT WORKS" ],
+					"items" : [ "wtf", ",", "Preset 1", ",", "OKOK", ",", "IT WORKS" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1245,7 +1245,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 623.0, 220.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 243.5, 509.0, 279.0, 25.0 ],
+					"presentation_rect" : [ 243.5, 446.0, 279.0, 25.0 ],
 					"style" : "One Dark",
 					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 				}
@@ -1274,7 +1274,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 45.0, 135.0, 59.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 243.5, 478.0, 160.0, 23.0 ],
+					"presentation_rect" : [ 243.5, 415.0, 160.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "PRESETS",
 					"varname" : "comment[8]"
@@ -1305,7 +1305,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 401.0, 790.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "8"
+					"text" : "1"
 				}
 
 			}
@@ -1347,7 +1347,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 401.0, 710.0, 111.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 243.5, 572.0, 89.0, 25.0 ],
+					"presentation_rect" : [ 243.5, 509.0, 89.0, 25.0 ],
 					"rounded" : 4.0,
 					"style" : "One Dark Button",
 					"text" : "Clear",
@@ -1401,7 +1401,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 300.0, 269.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 127.0, 579.0, 28.5, 28.5 ],
+					"presentation_rect" : [ 127.0, 516.0, 28.5, 28.5 ],
 					"style" : "One Dark"
 				}
 
@@ -1417,7 +1417,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 129.0, 431.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 127.0, 509.0, 28.5, 28.5 ],
+					"presentation_rect" : [ 127.0, 448.0, 25.5, 25.5 ],
 					"style" : ""
 				}
 
@@ -1472,7 +1472,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 178.0, 86.0, 148.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 548.0, 160.0, 23.0 ],
+					"presentation_rect" : [ 22.0, 485.0, 160.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "ABLETON LINK",
 					"varname" : "comment[9]"
@@ -1490,7 +1490,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 309.0, 86.0, 30.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 580.0, 28.5, 28.5 ],
+					"presentation_rect" : [ 22.0, 517.0, 28.5, 28.5 ],
 					"style" : "One Dark"
 				}
 
@@ -1504,7 +1504,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 120.0, 59.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 478.0, 160.0, 23.0 ],
+					"presentation_rect" : [ 22.0, 415.0, 160.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "LOCAL BPM",
 					"varname" : "comment[6]"
@@ -1536,7 +1536,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 97.0, 119.0, 30.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 510.0, 28.5, 28.5 ],
+					"presentation_rect" : [ 22.0, 447.0, 28.5, 28.5 ],
 					"style" : "One Dark"
 				}
 
@@ -1601,7 +1601,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 135.0, 187.0, 80.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.5, 511.0, 80.0, 25.0 ],
+					"presentation_rect" : [ 55.5, 448.0, 64.0, 25.0 ],
 					"style" : "One Dark Num",
 					"varname" : "bpm"
 				}
@@ -2380,7 +2380,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 313.0, 1167.0, 111.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 413.0, 635.25, 120.0, 25.0 ],
+					"presentation_rect" : [ 413.0, 568.25, 120.0, 25.0 ],
 					"style" : "One Dark Num"
 				}
 
@@ -2407,7 +2407,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 253.0, 1167.0, 55.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 362.0, 636.25, 48.0, 23.0 ],
+					"presentation_rect" : [ 362.0, 569.25, 48.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "port:",
 					"varname" : "comment[12]"
@@ -2422,7 +2422,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 44.0, 1171.0, 55.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.0, 636.25, 48.0, 23.0 ],
+					"presentation_rect" : [ 167.0, 569.25, 48.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "host:",
 					"varname" : "comment[11]"
@@ -2445,8 +2445,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 405.0, 421.0, 567.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 404.0, 603.0, 39.0 ],
-					"varname" : "layerui8",
+					"presentation_rect" : [ 22.0, 131.0, 626.0, 35.0 ],
+					"varname" : "layerui2",
 					"viewvisibility" : 1
 				}
 
@@ -2467,8 +2467,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 405.0, 376.0, 567.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 359.0, 603.0, 39.0 ],
-					"varname" : "layerui7",
+					"presentation_rect" : [ 22.0, 166.0, 626.0, 35.0 ],
+					"varname" : "layerui3",
 					"viewvisibility" : 1
 				}
 
@@ -2489,8 +2489,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 405.0, 331.0, 567.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 314.0, 603.0, 39.0 ],
-					"varname" : "layerui6",
+					"presentation_rect" : [ 22.0, 201.0, 626.0, 35.0 ],
+					"varname" : "layerui4",
 					"viewvisibility" : 1
 				}
 
@@ -2511,7 +2511,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 405.0, 286.0, 567.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 269.0, 603.0, 39.0 ],
+					"presentation_rect" : [ 22.0, 236.0, 626.0, 35.0 ],
 					"varname" : "layerui5",
 					"viewvisibility" : 1
 				}
@@ -2533,8 +2533,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 405.0, 241.0, 567.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 224.0, 603.0, 39.0 ],
-					"varname" : "layerui4",
+					"presentation_rect" : [ 22.0, 271.0, 626.0, 35.0 ],
+					"varname" : "layerui6",
 					"viewvisibility" : 1
 				}
 
@@ -2555,8 +2555,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 405.0, 196.0, 567.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 179.0, 603.0, 39.0 ],
-					"varname" : "layerui3",
+					"presentation_rect" : [ 22.0, 96.0, 626.0, 35.0 ],
+					"varname" : "layerui1",
 					"viewvisibility" : 1
 				}
 
@@ -2577,8 +2577,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 405.0, 151.0, 567.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 134.0, 603.0, 39.0 ],
-					"varname" : "layerui2",
+					"presentation_rect" : [ 22.0, 306.0, 626.0, 35.0 ],
+					"varname" : "layerui7",
 					"viewvisibility" : 1
 				}
 
@@ -2687,7 +2687,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 1013.0, 174.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 636.25, 130.5, 23.0 ],
+					"presentation_rect" : [ 22.0, 569.25, 130.5, 23.0 ],
 					"style" : "One Dark",
 					"text" : "OSC Settings",
 					"varname" : "comment[10]"
@@ -2788,8 +2788,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 406.0, 105.0, 566.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 90.0, 603.0, 39.0 ],
-					"varname" : "layerui1",
+					"presentation_rect" : [ 22.0, 341.0, 626.0, 35.0 ],
+					"varname" : "layerui8",
 					"viewvisibility" : 1
 				}
 
@@ -2861,7 +2861,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 103.0, 1167.0, 358.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 218.0, 635.75, 138.0, 24.0 ],
+					"presentation_rect" : [ 218.0, 568.75, 138.0, 24.0 ],
 					"style" : "One Dark Num",
 					"text" : "127.0.0.1"
 				}
@@ -2876,7 +2876,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 481.0, 1385.0, 493.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 463.0, 427.0, 157.0 ],
+					"presentation_rect" : [ 231.0, 400.0, 427.0, 157.0 ],
 					"style" : "One Dark"
 				}
 
@@ -2890,7 +2890,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 997.0, 590.0, 316.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 628.5, 643.0, 39.5 ],
+					"presentation_rect" : [ 15.0, 561.5, 643.0, 39.5 ],
 					"rounded" : 10,
 					"style" : "One Dark"
 				}
@@ -2905,7 +2905,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 390.0, 60.0, 606.0, 414.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 47.0, 643.0, 407.0 ],
+					"presentation_rect" : [ 15.0, 47.0, 643.0, 348.0 ],
 					"style" : "One Dark"
 				}
 
@@ -2919,7 +2919,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 60.0, 365.0, 414.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 463.0, 211.0, 157.0 ],
+					"presentation_rect" : [ 15.0, 400.0, 211.0, 157.0 ],
 					"style" : "One Dark"
 				}
 
