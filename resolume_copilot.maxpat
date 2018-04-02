@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 5,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1419.0, 604.0, 1097.0, 649.0 ],
+		"rect" : [ 989.0, 514.0, 913.0, 882.0 ],
 		"bgcolor" : [ 0.058824, 0.066667, 0.082353, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,74 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 221.0, 399.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 420.0, 89.0, 85.0, 55.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 54.5, 579.0, 327.0, 23.0 ],
+					"style" : "One Dark",
+					"text" : "Print OSC output to console",
+					"varname" : "comment[14]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1545.0, 74.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 26.5, 579.0, 24.0, 24.0 ],
+					"style" : "One Dark"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1494.0, 113.0, 34.0, 22.0 ],
+					"style" : "",
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1494.0, 143.5, 111.0, 22.0 ],
+					"style" : "",
+					"text" : "print \"OSC Output\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"linecount" : 2,
@@ -849,7 +917,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1439,7 +1507,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-68",
-					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -1612,11 +1679,10 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 135.0, 187.0, 109.0, 25.0 ],
+					"patching_rect" : [ 135.0, 187.0, 125.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.5, 425.5, 79.0, 25.0 ],
-					"style" : "One Dark",
-					"varname" : "bpm"
+					"presentation_rect" : [ 57.5, 425.5, 90.0, 25.0 ],
+					"style" : "One Dark"
 				}
 
 			}
@@ -1882,7 +1948,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2379,9 +2445,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 313.0, 1167.0, 136.0, 25.0 ],
+					"patching_rect" : [ 313.0, 1167.0, 146.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 413.0, 539.25, 64.0, 25.0 ],
+					"presentation_rect" : [ 413.0, 539.25, 69.0, 25.0 ],
 					"style" : "One Dark Num"
 				}
 
@@ -2623,10 +2689,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 30.0, 731.5, 126.0, 36.0 ],
-					"restore" : 					{
-						"bpm" : [ 739.0 ]
-					}
-,
 					"style" : "",
 					"text" : "autopattr copilot @dirty 1",
 					"varname" : "copilot"
@@ -2659,7 +2721,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1599.0, 153.5, 65.0, 22.0 ],
+					"patching_rect" : [ 1599.0, 190.0, 65.0, 22.0 ],
 					"style" : "",
 					"text" : "r sendport"
 				}
@@ -2674,7 +2736,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1494.0, 153.5, 80.0, 22.0 ],
+					"patching_rect" : [ 1494.0, 190.0, 80.0, 22.0 ],
 					"style" : "",
 					"text" : "r hostchange"
 				}
@@ -2733,7 +2795,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1449.0, 204.5, 140.0, 22.0 ],
+					"patching_rect" : [ 1449.0, 241.0, 140.0, 22.0 ],
 					"style" : "",
 					"text" : "udpsend 127.0.0.1 7000"
 				}
@@ -2847,9 +2909,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 103.0, 1167.0, 989.0, 23.0 ],
+					"patching_rect" : [ 103.0, 1167.0, 1409.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 218.0, 539.75, 191.0, 24.0 ],
+					"presentation_rect" : [ 218.0, 539.75, 272.0, 24.0 ],
 					"style" : "One Dark",
 					"text" : "127.0.0.1"
 				}
@@ -3050,6 +3112,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-154", 1 ],
 					"source" : [ "obj-158", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -3439,6 +3508,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
+					"order" : 1,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"order" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -3521,7 +3599,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
-					"midpoints" : [ 1503.5, 193.5, 1458.5, 193.5 ],
+					"midpoints" : [ 1503.5, 230.0, 1458.5, 230.0 ],
 					"source" : [ "obj-66", 0 ]
 				}
 
@@ -3529,7 +3607,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
-					"midpoints" : [ 1608.5, 193.5, 1458.5, 193.5 ],
+					"midpoints" : [ 1608.5, 230.0, 1458.5, 230.0 ],
 					"source" : [ "obj-67", 0 ]
 				}
 
@@ -3537,7 +3615,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
+					"order" : 1,
 					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"order" : 0,
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -3733,14 +3827,19 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "link.beat.mxe",
-				"type" : "iLaF"
+				"name" : "link.beat.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "One Dark",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"fontname" : [ "Menlo" ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3751,13 +3850,8 @@
 						"autogradient" : 0.0
 					}
 ,
-					"fontname" : [ "Menlo" ],
-					"fontface" : [ 0 ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"fontsize" : [ 14.0 ],
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3766,9 +3860,9 @@
 , 			{
 				"name" : "One Dark Button",
 				"default" : 				{
+					"fontsize" : [ 16.0 ],
 					"fontname" : [ "Inconsolata" ],
 					"selectioncolor" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
-					"fontsize" : [ 16.0 ],
 					"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 				}
 ,
@@ -3778,10 +3872,10 @@
 , 			{
 				"name" : "One Dark Num",
 				"default" : 				{
-					"fontname" : [ "Inconsolata" ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontsize" : [ 16.0 ],
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+					"fontname" : [ "Inconsolata" ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ]
 				}
 ,
 				"parentstyle" : "One Dark",
@@ -3790,6 +3884,9 @@
 , 			{
 				"name" : "One Dark-1",
 				"default" : 				{
+					"fontsize" : [ 18.0 ],
+					"fontname" : [ "Monaco" ],
+					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -3799,10 +3896,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Monaco" ],
-					"fontsize" : [ 18.0 ],
-					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 				}
 ,
 				"comment" : 				{
