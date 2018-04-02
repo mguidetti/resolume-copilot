@@ -1597,9 +1597,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 135.0, 187.0, 75.0, 25.0 ],
+					"patching_rect" : [ 135.0, 187.0, 80.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.5, 511.0, 75.0, 25.0 ],
+					"presentation_rect" : [ 55.5, 511.0, 80.0, 25.0 ],
 					"style" : "One Dark Num",
 					"varname" : "bpm"
 				}
@@ -2376,9 +2376,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 313.0, 1167.0, 104.0, 25.0 ],
+					"patching_rect" : [ 313.0, 1167.0, 111.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 413.0, 635.25, 112.0, 25.0 ],
+					"presentation_rect" : [ 413.0, 635.25, 120.0, 25.0 ],
 					"style" : "One Dark Num"
 				}
 
@@ -2857,9 +2857,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 103.0, 1167.0, 264.0, 23.0 ],
+					"patching_rect" : [ 103.0, 1167.0, 358.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 218.0, 635.75, 134.0, 24.0 ],
+					"presentation_rect" : [ 218.0, 635.75, 182.0, 24.0 ],
 					"style" : "One Dark Num",
 					"text" : "127.0.0.1"
 				}
