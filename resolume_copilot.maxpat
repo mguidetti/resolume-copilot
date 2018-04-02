@@ -74,7 +74,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1238.0, 578.0, 135.0, 22.0 ],
 					"style" : "",
-					"text" : "symbol \"Thank you\""
+					"text" : "symbol \"IT WORKS\""
 				}
 
 			}
@@ -266,7 +266,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1114.5, 578.0, 105.0, 22.0 ],
 					"style" : "",
-					"text" : "symbol \"Preset 3\""
+					"text" : "symbol \"Preset 9\""
 				}
 
 			}
@@ -447,7 +447,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1173.5, 892.5, 186.0, 22.0 ],
 					"style" : "",
-					"text" : "slotname 1 Nice Option"
+					"text" : "slotname 8 IT WORKS"
 				}
 
 			}
@@ -657,7 +657,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 401.0, 627.0, 52.0, 22.0 ],
 					"style" : "",
-					"text" : "store 2"
+					"text" : "store 8"
 				}
 
 			}
@@ -673,7 +673,9 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 243.5, 541.0, 89.0, 25.0 ],
 					"rounded" : 4.0,
-					"style" : "One Dark Button"
+					"style" : "One Dark Button",
+					"text" : "Save",
+					"texton" : "Save"
 				}
 
 			}
@@ -1235,7 +1237,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-122",
-					"items" : [ "Preset 0", ",", "Preset 2", ",", "Thank you" ],
+					"items" : [ "wtf", ",", "Preset 1", ",", "OKOK", ",", "Preset 3", ",", "ok", ",", "Preset 5", ",", "nah", ",", "wtf", ",", "IT WORKS" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1303,7 +1305,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 401.0, 790.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "2"
+					"text" : "8"
 				}
 
 			}
@@ -2859,7 +2861,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 103.0, 1167.0, 358.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 218.0, 635.75, 182.0, 24.0 ],
+					"presentation_rect" : [ 218.0, 635.75, 138.0, 24.0 ],
 					"style" : "One Dark Num",
 					"text" : "127.0.0.1"
 				}
