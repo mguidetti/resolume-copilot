@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 989.0, 514.0, 913.0, 882.0 ],
+		"rect" : [ 1166.0, 410.0, 865.0, 882.0 ],
 		"bgcolor" : [ 0.058824, 0.066667, 0.082353, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 178.0, 492.5, 72.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -51,14 +64,15 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 11.0,
 					"id" : "obj-21",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 89.0, 85.0, 55.0 ],
+					"patching_rect" : [ 420.0, 89.0, 97.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 54.5, 579.0, 327.0, 23.0 ],
+					"presentation_rect" : [ 50.166668, 574.0, 230.0, 19.0 ],
 					"style" : "One Dark",
 					"text" : "Print OSC output to console",
 					"varname" : "comment[14]"
@@ -75,7 +89,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1545.0, 74.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.5, 579.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 26.5, 573.0, 18.999979, 18.999979 ],
 					"style" : "One Dark"
 				}
 
@@ -114,7 +128,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 896.0, 89.0, 50.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 558.0, 58.0, 57.0, 23.0 ],
+					"presentation_rect" : [ 512.0, 58.0, 57.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "SCALE",
 					"varname" : "comment[13]"
@@ -677,7 +691,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 465.0, 1010.5, 111.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 547.0, 539.25, 89.0, 25.0 ],
+					"presentation_rect" : [ 547.0, 542.25, 89.0, 25.0 ],
 					"rounded" : 4.0,
 					"style" : "One Dark Button",
 					"text" : "Reset",
@@ -1463,7 +1477,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 881.0, 74.0, 87.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.0, 58.0, 79.0, 23.0 ],
+					"presentation_rect" : [ 427.0, 58.0, 79.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "DURATION",
 					"varname" : "comment[4]"
@@ -1679,9 +1693,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 135.0, 187.0, 125.0, 25.0 ],
+					"patching_rect" : [ 135.0, 187.0, 142.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.5, 425.5, 90.0, 25.0 ],
+					"presentation_rect" : [ 57.5, 425.5, 68.0, 25.0 ],
 					"style" : "One Dark"
 				}
 
@@ -2445,9 +2459,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 313.0, 1167.0, 146.0, 25.0 ],
+					"patching_rect" : [ 313.0, 1167.0, 156.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 413.0, 539.25, 69.0, 25.0 ],
+					"presentation_rect" : [ 413.0, 542.25, 74.0, 25.0 ],
 					"style" : "One Dark Num"
 				}
 
@@ -2474,7 +2488,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 253.0, 1167.0, 55.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 355.0, 540.25, 58.0, 23.0 ],
+					"presentation_rect" : [ 358.0, 543.25, 52.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "port:",
 					"varname" : "comment[12]"
@@ -2489,7 +2503,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 44.0, 1171.0, 55.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.0, 540.25, 56.0, 23.0 ],
+					"presentation_rect" : [ 162.0, 543.25, 53.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "host:",
 					"varname" : "comment[11]"
@@ -2750,22 +2764,23 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 1013.0, 174.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 540.25, 130.5, 23.0 ],
+					"presentation_rect" : [ 22.0, 543.25, 130.5, 23.0 ],
 					"style" : "One Dark",
-					"text" : "OSC Settings",
+					"text" : "OSC SETTINGS",
 					"varname" : "comment[10]"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 18.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 306.0, 23.0 ],
+					"patching_rect" : [ 15.0, 15.0, 435.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 14.0, 369.0, 23.0 ],
+					"presentation_rect" : [ 15.0, 14.0, 524.0, 27.0 ],
 					"style" : "One Dark",
 					"text" : "RESOLUME CO-PILOT",
 					"varname" : "comment[7]"
@@ -2780,7 +2795,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 405.0, 74.0, 85.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 58.0, 53.0, 23.0 ],
+					"presentation_rect" : [ 26.0, 58.0, 53.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "LAYER",
 					"varname" : "comment[5]"
@@ -2809,7 +2824,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 480.0, 74.0, 107.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 94.0, 58.0, 138.0, 23.0 ],
+					"presentation_rect" : [ 90.0, 58.0, 114.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "MODE",
 					"varname" : "comment[3]"
@@ -2861,7 +2876,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 795.0, 74.0, 73.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 379.0, 58.0, 61.0, 23.0 ],
+					"presentation_rect" : [ 364.0, 58.0, 51.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "STEP",
 					"varname" : "comment[2]"
@@ -2876,7 +2891,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 720.0, 74.0, 81.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 317.0, 58.0, 58.0, 23.0 ],
+					"presentation_rect" : [ 300.0, 58.0, 58.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "BEAT",
 					"varname" : "comment[1]"
@@ -2891,7 +2906,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 645.0, 74.0, 83.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 250.5, 58.0, 55.0, 23.0 ],
+					"presentation_rect" : [ 235.5, 58.0, 55.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "CLIPS",
 					"varname" : "comment"
@@ -2909,9 +2924,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 103.0, 1167.0, 1409.0, 23.0 ],
+					"patching_rect" : [ 103.0, 1167.0, 2007.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 218.0, 539.75, 272.0, 24.0 ],
+					"presentation_rect" : [ 218.0, 542.75, 134.0, 24.0 ],
 					"style" : "One Dark",
 					"text" : "127.0.0.1"
 				}
@@ -2940,7 +2955,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 997.0, 590.0, 316.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 532.5, 643.0, 39.5 ],
+					"presentation_rect" : [ 15.0, 532.5, 643.0, 71.5 ],
 					"rounded" : 10,
 					"style" : "One Dark"
 				}
@@ -2976,6 +2991,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-122", 0 ],
 					"midpoints" : [ 39.5, 625.0, 39.5, 625.0 ],
@@ -3835,8 +3857,8 @@
 		"styles" : [ 			{
 				"name" : "One Dark",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontsize" : [ 14.0 ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontname" : [ "Menlo" ],
 					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
@@ -3872,8 +3894,8 @@
 , 			{
 				"name" : "One Dark Num",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontsize" : [ 16.0 ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontname" : [ "Inconsolata" ],
 					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ]
 				}
