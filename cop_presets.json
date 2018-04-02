@@ -6,7 +6,6 @@
 				"id" : 1,
 				"name" : "Testing",
 				"data" : 				{
-					"bpm" : [ 114.0 ],
 					"layerui8::beatint" : [ 4 ],
 					"layerui8::duration" : [ 500 ],
 					"layerui8::layernum" : [ 1 ],
@@ -63,7 +62,6 @@
 				"id" : 2,
 				"name" : "OKOK",
 				"data" : 				{
-					"bpm" : [ 114.0 ],
 					"layerui8::beatint" : [ 4 ],
 					"layerui8::duration" : [ 500 ],
 					"layerui8::layernum" : [ 1 ],
@@ -120,7 +118,6 @@
 				"id" : 3,
 				"name" : "Drawings",
 				"data" : 				{
-					"bpm" : [ 100.0 ],
 					"layerui8::beatint" : [ 4 ],
 					"layerui8::duration" : [ 500 ],
 					"layerui8::layernum" : [ 1 ],
