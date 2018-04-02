@@ -668,7 +668,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "clear" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1077,7 +1077,6 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontsize" : 16.0,
 					"id" : "obj-122",
 					"items" : [ "one", ",", "hehe" ],
 					"maxclass" : "umenu",
@@ -1439,9 +1438,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 135.0, 187.0, 65.0, 25.0 ],
+					"patching_rect" : [ 135.0, 187.0, 70.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.5, 511.0, 65.0, 25.0 ],
+					"presentation_rect" : [ 55.5, 511.0, 70.0, 25.0 ],
 					"style" : "One Dark Num",
 					"varname" : "bpm"
 				}
@@ -2212,17 +2211,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"fontsize" : 16.0,
 					"id" : "obj-63",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 313.0, 1167.0, 103.0, 25.0 ],
+					"patching_rect" : [ 313.0, 1167.0, 97.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 413.0, 635.25, 111.0, 25.0 ],
+					"presentation_rect" : [ 413.0, 635.25, 105.0, 25.0 ],
 					"style" : "One Dark Num"
 				}
 
@@ -2243,7 +2240,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-56",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2253,7 +2249,6 @@
 					"presentation_rect" : [ 362.0, 636.25, 48.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "port:",
-					"textjustification" : 2,
 					"varname" : "comment[12]"
 				}
 
@@ -2269,7 +2264,6 @@
 					"presentation_rect" : [ 167.0, 636.25, 48.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "host:",
-					"textjustification" : 2,
 					"varname" : "comment[11]"
 				}
 
@@ -2696,7 +2690,6 @@
 , 			{
 				"box" : 				{
 					"border" : 0.0,
-					"fontsize" : 16.0,
 					"id" : "obj-59",
 					"keymode" : 1,
 					"lines" : 1,
@@ -2705,9 +2698,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 103.0, 1167.0, 181.0, 23.0 ],
+					"patching_rect" : [ 103.0, 1167.0, 194.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 218.0, 635.75, 137.0, 24.0 ],
+					"presentation_rect" : [ 218.0, 635.75, 147.0, 24.0 ],
 					"style" : "One Dark Num",
 					"text" : "127.0.0.1"
 				}
