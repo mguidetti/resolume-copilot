@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1350.0, 460.0, 865.0, 882.0 ],
+		"rect" : [ 1227.0, 524.0, 752.0, 882.0 ],
 		"bgcolor" : [ 0.058824, 0.066667, 0.082353, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -693,7 +693,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 465.0, 1010.5, 111.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 547.0, 542.25, 89.0, 25.0 ],
+					"presentation_rect" : [ 559.0, 542.25, 89.0, 25.0 ],
 					"rounded" : 4.0,
 					"style" : "One Dark Button",
 					"text" : "Reset",
@@ -1523,6 +1523,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-68",
+					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
