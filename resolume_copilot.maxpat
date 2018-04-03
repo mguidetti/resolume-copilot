@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 693.0, 594.0, 1250.0, 619.0 ],
+		"rect" : [ 1335.0, 561.0, 1097.0, 771.0 ],
 		"bgcolor" : [ 0.058824, 0.066667, 0.082353, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -174,7 +174,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1238.0, 578.0, 135.0, 22.0 ],
 					"style" : "",
-					"text" : "symbol (undefined)"
+					"text" : "symbol Drawings"
 				}
 
 			}
@@ -364,7 +364,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1114.5, 578.0, 105.0, 22.0 ],
 					"style" : "",
-					"text" : "symbol \"Preset 1\""
+					"text" : "symbol \"Preset 2\""
 				}
 
 			}
@@ -545,7 +545,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1173.5, 892.5, 186.0, 22.0 ],
 					"style" : "",
-					"text" : "slotname 1 jopjj"
+					"text" : "slotname 0 Drawings"
 				}
 
 			}
@@ -755,7 +755,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 401.0, 627.0, 52.0, 22.0 ],
 					"style" : "",
-					"text" : "store 1"
+					"text" : "store 0"
 				}
 
 			}
@@ -1337,7 +1337,7 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"id" : "obj-122",
-					"items" : "(undefined)",
+					"items" : [ "Drawings", ",", "<(unnamed)>" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1404,7 +1404,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 401.0, 790.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -1698,7 +1698,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 135.0, 187.0, 269.0, 25.0 ],
+					"patching_rect" : [ 135.0, 187.0, 85.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 57.5, 425.5, 69.0, 25.0 ],
 					"style" : "",
@@ -2465,7 +2465,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 313.0, 1167.0, 347.0, 25.0 ],
+					"patching_rect" : [ 313.0, 1167.0, 79.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 542.25, 171.0, 25.0 ],
 					"style" : "One Dark Num"
@@ -2936,7 +2936,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 103.0, 1167.0, 2859.0, 23.0 ],
+					"patching_rect" : [ 103.0, 1167.0, 141.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 218.0, 542.75, 133.0, 24.0 ],
 					"rounded" : 0.0,
