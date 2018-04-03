@@ -5,9 +5,9 @@ Based off 2009 patch by Gian Pablo Villamil
 
 ## New Features
 
-- Updated OSC
-- Added Ableton Link BPM sync
-- Added duration blink
-- Prevent repeat random numbers
 - New preset system with named presets
+- Ableton Link BPM sync
+- Updated OSC
+- Clip duration
 - Random scale and position
+- Repeat random numbers in 'Random' mode are prevented
