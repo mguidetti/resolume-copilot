@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 5,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1227.0, 524.0, 752.0, 882.0 ],
+		"rect" : [ 693.0, 594.0, 1250.0, 619.0 ],
 		"bgcolor" : [ 0.058824, 0.066667, 0.082353, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -174,7 +174,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1238.0, 578.0, 135.0, 22.0 ],
 					"style" : "",
-					"text" : "symbol Drawings"
+					"text" : "symbol (undefined)"
 				}
 
 			}
@@ -545,7 +545,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1173.5, 892.5, 186.0, 22.0 ],
 					"style" : "",
-					"text" : "slotname 1 asdsd"
+					"text" : "slotname 1 jopjj"
 				}
 
 			}
@@ -755,7 +755,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 401.0, 627.0, 52.0, 22.0 ],
 					"style" : "",
-					"text" : "store 0"
+					"text" : "store 1"
 				}
 
 			}
@@ -933,7 +933,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1337,7 +1337,7 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"id" : "obj-122",
-					"items" : "Drawings",
+					"items" : "(undefined)",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1404,7 +1404,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 401.0, 790.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "0"
+					"text" : "1"
 				}
 
 			}
@@ -1523,7 +1523,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-68",
-					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -1969,7 +1968,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2466,9 +2465,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 313.0, 1167.0, 267.0, 25.0 ],
+					"patching_rect" : [ 313.0, 1167.0, 347.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 413.0, 542.25, 131.0, 25.0 ],
+					"presentation_rect" : [ 413.0, 542.25, 171.0, 25.0 ],
 					"style" : "One Dark Num"
 				}
 
@@ -2643,7 +2642,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 405.0, 196.0, 567.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 85.0, 643.0, 35.0 ],
+					"presentation_rect" : [ 22.0, 85.0, 690.0, 35.0 ],
 					"varname" : "layerui1",
 					"viewvisibility" : 1
 				}
@@ -3864,14 +3863,17 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "link.beat.mxe",
-				"type" : "iLaF"
+				"name" : "link.beat.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "One Dark",
 				"default" : 				{
+					"fontsize" : [ 14.0 ],
+					"fontname" : [ "Menlo" ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3882,13 +3884,10 @@
 						"autogradient" : 0.0
 					}
 ,
-					"fontface" : [ 0 ],
-					"fontsize" : [ 14.0 ],
 					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"fontname" : [ "Menlo" ],
-					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
+					"fontface" : [ 0 ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3898,8 +3897,8 @@
 				"name" : "One Dark Button",
 				"default" : 				{
 					"fontsize" : [ 16.0 ],
-					"selectioncolor" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 					"fontname" : [ "Inconsolata" ],
+					"selectioncolor" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 					"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 				}
 ,
@@ -3910,9 +3909,9 @@
 				"name" : "One Dark Num",
 				"default" : 				{
 					"fontsize" : [ 16.0 ],
+					"fontname" : [ "Inconsolata" ],
 					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"fontname" : [ "Inconsolata" ]
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 				}
 ,
 				"parentstyle" : "One Dark",
@@ -3921,6 +3920,8 @@
 , 			{
 				"name" : "One Dark-1",
 				"default" : 				{
+					"fontsize" : [ 18.0 ],
+					"fontname" : [ "Monaco" ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -3931,9 +3932,7 @@
 						"autogradient" : 0.0
 					}
 ,
-					"fontsize" : [ 18.0 ],
-					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-					"fontname" : [ "Monaco" ]
+					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
 				}
 ,
 				"comment" : 				{
