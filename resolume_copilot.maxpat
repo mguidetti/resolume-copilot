@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 161.0, 398.0, 769.0, 614.0 ],
+		"rect" : [ 591.0, 316.0, 837.0, 620.0 ],
 		"bgcolor" : [ 0.058824, 0.066667, 0.082353, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 200.0, 313.0, 95.0, 22.0 ],
+					"style" : "",
+					"text" : "s beatclock_link"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"bgcolor2" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
@@ -58,7 +70,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1062.75, 73.0, 61.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 682.0, 57.0, 61.0, 25.0 ],
+					"presentation_rect" : [ 743.0, 56.0, 61.0, 25.0 ],
 					"style" : "",
 					"text" : "ALL",
 					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
@@ -165,7 +177,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1020.5, 74.0, 53.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 646.0, 58.0, 35.0, 23.0 ],
+					"presentation_rect" : [ 706.0, 57.0, 35.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "POS",
 					"varname" : "comment[15]"
@@ -195,18 +207,6 @@
 					"patching_rect" : [ 135.0, 528.5, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-42",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 221.0, 399.0, 24.0, 24.0 ],
-					"style" : ""
 				}
 
 			}
@@ -276,7 +276,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 965.5, 74.0, 53.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 552.0, 58.0, 69.0, 23.0 ],
+					"presentation_rect" : [ 614.0, 58.0, 69.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "SCALE",
 					"varname" : "comment[13]"
@@ -1625,7 +1625,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 881.0, 74.0, 94.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 463.0, 58.0, 94.0, 23.0 ],
+					"presentation_rect" : [ 526.0, 58.0, 94.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "DURATION",
 					"varname" : "comment[4]"
@@ -1665,20 +1665,6 @@
 					"presentation_rect" : [ 133.0, 425.5, 25.0, 25.0 ],
 					"style" : "One Dark",
 					"thickness" : 100.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-68",
-					"int" : 1,
-					"maxclass" : "gswitch",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 45.0, 387.0, 41.0, 32.0 ],
-					"style" : ""
 				}
 
 			}
@@ -1750,9 +1736,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 444.0, 71.0, 22.0 ],
+					"patching_rect" : [ 45.0, 444.0, 102.0, 22.0 ],
 					"style" : "",
-					"text" : "s beatclock"
+					"text" : "s beatclock_local"
 				}
 
 			}
@@ -2670,7 +2656,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 405.0, 421.0, 767.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 120.0, 725.0, 35.0 ],
+					"presentation_rect" : [ 22.0, 120.0, 790.0, 35.0 ],
 					"varname" : "layerui2",
 					"viewvisibility" : 1
 				}
@@ -2692,7 +2678,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 405.0, 376.0, 767.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 155.0, 725.0, 35.0 ],
+					"presentation_rect" : [ 22.0, 155.0, 790.0, 35.0 ],
 					"varname" : "layerui3",
 					"viewvisibility" : 1
 				}
@@ -2714,7 +2700,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 405.0, 331.0, 767.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 190.0, 725.0, 35.0 ],
+					"presentation_rect" : [ 22.0, 190.0, 790.0, 35.0 ],
 					"varname" : "layerui4",
 					"viewvisibility" : 1
 				}
@@ -2736,7 +2722,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 405.0, 286.0, 767.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 225.0, 725.0, 35.0 ],
+					"presentation_rect" : [ 22.0, 225.0, 790.0, 35.0 ],
 					"varname" : "layerui5",
 					"viewvisibility" : 1
 				}
@@ -2758,7 +2744,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 405.0, 241.0, 767.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 260.0, 725.0, 35.0 ],
+					"presentation_rect" : [ 22.0, 260.0, 790.0, 35.0 ],
 					"varname" : "layerui6",
 					"viewvisibility" : 1
 				}
@@ -2780,7 +2766,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 405.0, 196.0, 767.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 85.0, 725.0, 35.0 ],
+					"presentation_rect" : [ 22.0, 85.0, 790.0, 35.0 ],
 					"varname" : "layerui1",
 					"viewvisibility" : 1
 				}
@@ -2802,7 +2788,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 405.0, 151.0, 767.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 295.0, 725.0, 35.0 ],
+					"presentation_rect" : [ 22.0, 295.0, 790.0, 35.0 ],
 					"varname" : "layerui7",
 					"viewvisibility" : 1
 				}
@@ -2971,7 +2957,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 480.0, 74.0, 103.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 58.0, 109.0, 23.0 ],
+					"presentation_rect" : [ 181.0, 58.0, 109.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "MODE",
 					"varname" : "comment[3]"
@@ -3009,7 +2995,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 406.0, 105.0, 766.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 330.0, 725.0, 35.0 ],
+					"presentation_rect" : [ 22.0, 330.0, 790.0, 35.0 ],
 					"varname" : "layerui8",
 					"viewvisibility" : 1
 				}
@@ -3023,7 +3009,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 795.0, 74.0, 77.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 399.0, 58.0, 54.0, 23.0 ],
+					"presentation_rect" : [ 464.0, 58.0, 54.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "STEP",
 					"varname" : "comment[2]"
@@ -3038,7 +3024,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 720.0, 74.0, 88.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 330.0, 58.0, 63.0, 23.0 ],
+					"presentation_rect" : [ 392.0, 58.0, 63.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "BEAT",
 					"varname" : "comment[1]"
@@ -3053,7 +3039,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 645.0, 74.0, 97.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 263.0, 58.0, 64.0, 23.0 ],
+					"presentation_rect" : [ 325.0, 58.0, 64.0, 23.0 ],
 					"style" : "One Dark",
 					"text" : "CLIPS",
 					"varname" : "comment"
@@ -3093,7 +3079,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 481.0, 1855.0, 631.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 384.0, 524.0, 144.0 ],
+					"presentation_rect" : [ 231.0, 384.0, 591.0, 144.0 ],
 					"style" : "One Dark"
 				}
 
@@ -3107,7 +3093,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 1133.0, 590.0, 316.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 532.5, 740.0, 71.5 ],
+					"presentation_rect" : [ 15.0, 532.5, 807.0, 71.5 ],
 					"rounded" : 10,
 					"style" : "One Dark"
 				}
@@ -3122,7 +3108,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 390.0, 49.5, 795.0, 424.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 47.0, 740.0, 332.0 ],
+					"presentation_rect" : [ 15.0, 47.0, 807.0, 332.0 ],
 					"style" : "One Dark"
 				}
 
@@ -3332,7 +3318,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-68", 1 ],
+					"destination" : [ "obj-41", 0 ],
 					"order" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
@@ -3663,15 +3649,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
-					"order" : 0,
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
-					"order" : 1,
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -3718,16 +3695,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-42", 0 ],
+					"order" : 1,
 					"source" : [ "obj-52", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-68", 2 ],
-					"order" : 1,
+					"destination" : [ "obj-60", 0 ],
+					"order" : 0,
 					"source" : [ "obj-52", 1 ]
 				}
 
@@ -3790,22 +3767,6 @@
 					"destination" : [ "obj-53", 0 ],
 					"midpoints" : [ 805.5, 1308.5, 655.5, 1308.5 ],
 					"source" : [ "obj-67", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"order" : 1,
-					"source" : [ "obj-68", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"order" : 0,
-					"source" : [ "obj-68", 0 ]
 				}
 
 			}
@@ -4046,6 +4007,9 @@
 		"styles" : [ 			{
 				"name" : "One Dark",
 				"default" : 				{
+					"fontface" : [ 0 ],
+					"fontsize" : [ 14.0 ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontname" : [ "Menlo" ],
 					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
@@ -4059,9 +4023,6 @@
 						"autogradient" : 0.0
 					}
 ,
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"fontface" : [ 0 ],
-					"fontsize" : [ 14.0 ],
 					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
 				}
 ,
@@ -4071,10 +4032,10 @@
 , 			{
 				"name" : "One Dark Button",
 				"default" : 				{
-					"fontname" : [ "Inconsolata" ],
-					"selectioncolor" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 					"fontsize" : [ 16.0 ],
-					"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+					"fontname" : [ "Inconsolata" ],
+					"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"selectioncolor" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4083,10 +4044,10 @@
 , 			{
 				"name" : "One Dark Num",
 				"default" : 				{
-					"fontname" : [ "Inconsolata" ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"fontsize" : [ 16.0 ],
 					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"fontsize" : [ 16.0 ]
+					"fontname" : [ "Inconsolata" ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ]
 				}
 ,
 				"parentstyle" : "One Dark",
@@ -4094,11 +4055,8 @@
 			}
 , 			{
 				"name" : "One Dark-1",
-				"comment" : 				{
-					"fontname" : [ "Monaco" ]
-				}
-,
 				"default" : 				{
+					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Monaco" ],
 					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 					"bgfillcolor" : 					{
@@ -4110,8 +4068,11 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
+
+				}
 ,
-					"fontsize" : [ 18.0 ]
+				"comment" : 				{
+					"fontname" : [ "Monaco" ]
 				}
 ,
 				"parentstyle" : "",
@@ -4120,6 +4081,9 @@
 , 			{
 				"name" : "One Dark-1-1",
 				"default" : 				{
+					"fontface" : [ 0 ],
+					"fontsize" : [ 14.0 ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontname" : [ "Menlo" ],
 					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"bgfillcolor" : 					{
@@ -4132,9 +4096,6 @@
 						"autogradient" : 0.0
 					}
 ,
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"fontface" : [ 0 ],
-					"fontsize" : [ 14.0 ],
 					"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 				}
 ,
@@ -4143,11 +4104,8 @@
 			}
 , 			{
 				"name" : "One Dark-1-1-1",
-				"comment" : 				{
-					"fontname" : [ "Monaco" ]
-				}
-,
 				"default" : 				{
+					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Monaco" ],
 					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 					"bgfillcolor" : 					{
@@ -4159,8 +4117,11 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
+
+				}
 ,
-					"fontsize" : [ 18.0 ]
+				"comment" : 				{
+					"fontname" : [ "Monaco" ]
 				}
 ,
 				"parentstyle" : "",
@@ -4168,11 +4129,8 @@
 			}
 , 			{
 				"name" : "One Dark-1-1-2",
-				"comment" : 				{
-					"fontname" : [ "Monaco" ]
-				}
-,
 				"default" : 				{
+					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Monaco" ],
 					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 					"bgfillcolor" : 					{
@@ -4184,8 +4142,11 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
+
+				}
 ,
-					"fontsize" : [ 18.0 ]
+				"comment" : 				{
+					"fontname" : [ "Monaco" ]
 				}
 ,
 				"parentstyle" : "",
@@ -4194,6 +4155,9 @@
 , 			{
 				"name" : "One Dark-1-2",
 				"default" : 				{
+					"fontface" : [ 0 ],
+					"fontsize" : [ 14.0 ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontname" : [ "Menlo" ],
 					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"bgfillcolor" : 					{
@@ -4206,9 +4170,6 @@
 						"autogradient" : 0.0
 					}
 ,
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"fontface" : [ 0 ],
-					"fontsize" : [ 14.0 ],
 					"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 				}
 ,
@@ -4217,11 +4178,8 @@
 			}
 , 			{
 				"name" : "One Dark-2",
-				"comment" : 				{
-					"fontname" : [ "Monaco" ]
-				}
-,
 				"default" : 				{
+					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Monaco" ],
 					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
@@ -4236,8 +4194,11 @@
 						"autogradient" : 0.0
 					}
 ,
-					"fontsize" : [ 18.0 ],
 					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+				}
+,
+				"comment" : 				{
+					"fontname" : [ "Monaco" ]
 				}
 ,
 				"parentstyle" : "",
@@ -4246,6 +4207,9 @@
 , 			{
 				"name" : "One Dark-2-1",
 				"default" : 				{
+					"fontface" : [ 0 ],
+					"fontsize" : [ 14.0 ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontname" : [ "Menlo" ],
 					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
@@ -4259,9 +4223,6 @@
 						"autogradient" : 0.0
 					}
 ,
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"fontface" : [ 0 ],
-					"fontsize" : [ 14.0 ],
 					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
 				}
 ,
@@ -4271,6 +4232,9 @@
 , 			{
 				"name" : "One Dark-2-2",
 				"default" : 				{
+					"fontface" : [ 0 ],
+					"fontsize" : [ 14.0 ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontname" : [ "Menlo" ],
 					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
@@ -4284,9 +4248,6 @@
 						"autogradient" : 0.0
 					}
 ,
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"fontface" : [ 0 ],
-					"fontsize" : [ 14.0 ],
 					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
 				}
 ,
@@ -4295,11 +4256,8 @@
 			}
 , 			{
 				"name" : "One Dark-3",
-				"comment" : 				{
-					"fontname" : [ "Monaco" ]
-				}
-,
 				"default" : 				{
+					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Monaco" ],
 					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
@@ -4314,8 +4272,11 @@
 						"autogradient" : 0.0
 					}
 ,
-					"fontsize" : [ 18.0 ],
 					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+				}
+,
+				"comment" : 				{
+					"fontname" : [ "Monaco" ]
 				}
 ,
 				"parentstyle" : "",
