@@ -9,8 +9,8 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 401.0, 246.0, 1250.0, 1078.0 ],
-		"bglocked" : 1,
+		"rect" : [ 566.0, 214.0, 1250.0, 816.0 ],
+		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -37,6 +37,133 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.031373, 0.541176, 0.498039, 1.0 ],
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 274.0, 573.0, 59.0, 22.0 ],
+					"style" : "",
+					"text" : "r all_step"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.031373, 0.541176, 0.498039, 1.0 ],
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 102.0, 577.0, 61.0, 22.0 ],
+					"style" : "",
+					"text" : "r all_clips"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.031373, 0.541176, 0.498039, 1.0 ],
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1083.25, 245.0, 59.0, 22.0 ],
+					"style" : "",
+					"text" : "r all_time"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.031373, 0.541176, 0.498039, 1.0 ],
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 988.0, 245.0, 65.0, 22.0 ],
+					"style" : "",
+					"text" : "r all_scale"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.031373, 0.541176, 0.498039, 1.0 ],
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 880.5, 245.0, 78.0, 22.0 ],
+					"style" : "",
+					"text" : "r all_position"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.031373, 0.541176, 0.498039, 1.0 ],
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 885.0, 530.0, 80.0, 22.0 ],
+					"style" : "",
+					"text" : "r all_duration"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.031373, 0.541176, 0.498039, 1.0 ],
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 503.0, 351.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "r all_beat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.031373, 0.541176, 0.498039, 1.0 ],
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 152.0, 418.0, 67.0, 22.0 ],
+					"style" : "",
+					"text" : "r all_mode"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 488.0, 389.0, 78.0, 22.0 ],
+					"presentation_rect" : [ 489.5, 385.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "r #0_reset_1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
@@ -460,8 +587,12 @@
 						"styles" : [ 							{
 								"name" : "One Dark",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -471,11 +602,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -488,9 +615,9 @@
 , 							{
 								"name" : "One Dark Button",
 								"default" : 								{
+									"selectioncolor" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"fontsize" : [ 16.0 ],
 									"fontname" : [ "Inconsolata" ],
-									"selectioncolor" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 								}
 ,
@@ -500,10 +627,10 @@
 , 							{
 								"name" : "One Dark Num",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 16.0 ],
 									"fontname" : [ "Inconsolata" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ]
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -512,9 +639,12 @@
 , 							{
 								"name" : "One Dark-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -524,10 +654,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -537,6 +664,8 @@
 								"name" : "One Dark-1-1",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -546,9 +675,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -561,9 +688,12 @@
 , 							{
 								"name" : "One Dark-1-1-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -573,10 +703,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -586,6 +713,8 @@
 								"name" : "One Dark-1-1-1-1",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -595,9 +724,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -611,6 +738,8 @@
 								"name" : "One Dark-1-1-2",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -620,9 +749,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -636,6 +763,8 @@
 								"name" : "One Dark-1-1-3",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -645,9 +774,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -661,6 +788,8 @@
 								"name" : "One Dark-1-2",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -670,9 +799,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -685,9 +812,12 @@
 , 							{
 								"name" : "One Dark-1-2-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -697,10 +827,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -709,9 +836,12 @@
 , 							{
 								"name" : "One Dark-1-3",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -721,10 +851,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -733,9 +860,13 @@
 , 							{
 								"name" : "One Dark-2",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -745,11 +876,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -758,8 +885,12 @@
 , 							{
 								"name" : "One Dark-2-1",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -769,11 +900,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -786,9 +913,13 @@
 , 							{
 								"name" : "One Dark-2-1-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -798,11 +929,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -811,9 +938,13 @@
 , 							{
 								"name" : "One Dark-2-2",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -823,11 +954,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -836,9 +963,13 @@
 , 							{
 								"name" : "One Dark-2-3",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -848,11 +979,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -861,9 +988,13 @@
 , 							{
 								"name" : "One Dark-3",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -873,11 +1004,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -886,8 +1013,12 @@
 , 							{
 								"name" : "One Dark-3-1",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -897,11 +1028,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -914,8 +1041,12 @@
 , 							{
 								"name" : "One Dark-4",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -925,11 +1056,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -942,8 +1069,8 @@
 , 							{
 								"name" : "incdec001",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
 								}
 ,
@@ -1030,7 +1157,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 565.0, 427.5, 72.0, 22.0 ],
+					"patching_rect" : [ 584.5, 424.5, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "s #0_timing"
 				}
@@ -1043,7 +1170,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 565.0, 392.5, 37.0, 22.0 ],
+					"patching_rect" : [ 584.5, 389.5, 37.0, 22.0 ],
 					"style" : "",
 					"text" : "timer"
 				}
@@ -1318,8 +1445,12 @@
 						"styles" : [ 							{
 								"name" : "One Dark",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -1329,11 +1460,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -1346,9 +1473,9 @@
 , 							{
 								"name" : "One Dark Button",
 								"default" : 								{
+									"selectioncolor" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"fontsize" : [ 16.0 ],
 									"fontname" : [ "Inconsolata" ],
-									"selectioncolor" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 								}
 ,
@@ -1358,10 +1485,10 @@
 , 							{
 								"name" : "One Dark Num",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 16.0 ],
 									"fontname" : [ "Inconsolata" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ]
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1370,9 +1497,12 @@
 , 							{
 								"name" : "One Dark-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1382,10 +1512,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1395,6 +1522,8 @@
 								"name" : "One Dark-1-1",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -1404,9 +1533,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -1419,9 +1546,12 @@
 , 							{
 								"name" : "One Dark-1-1-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1431,10 +1561,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1444,6 +1571,8 @@
 								"name" : "One Dark-1-1-1-1",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -1453,9 +1582,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -1469,6 +1596,8 @@
 								"name" : "One Dark-1-1-2",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -1478,9 +1607,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -1494,6 +1621,8 @@
 								"name" : "One Dark-1-1-3",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -1503,9 +1632,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -1519,6 +1646,8 @@
 								"name" : "One Dark-1-2",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -1528,9 +1657,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -1543,9 +1670,12 @@
 , 							{
 								"name" : "One Dark-1-2-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1555,10 +1685,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1567,9 +1694,12 @@
 , 							{
 								"name" : "One Dark-1-3",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1579,10 +1709,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1591,9 +1718,13 @@
 , 							{
 								"name" : "One Dark-2",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1603,11 +1734,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1616,8 +1743,12 @@
 , 							{
 								"name" : "One Dark-2-1",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -1627,11 +1758,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -1644,9 +1771,13 @@
 , 							{
 								"name" : "One Dark-2-1-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1656,11 +1787,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1669,9 +1796,13 @@
 , 							{
 								"name" : "One Dark-2-2",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1681,11 +1812,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1694,9 +1821,13 @@
 , 							{
 								"name" : "One Dark-2-3",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1706,11 +1837,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1719,9 +1846,13 @@
 , 							{
 								"name" : "One Dark-3",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1731,11 +1862,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -1744,8 +1871,12 @@
 , 							{
 								"name" : "One Dark-3-1",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -1755,11 +1886,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -1772,8 +1899,12 @@
 , 							{
 								"name" : "One Dark-4",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -1783,11 +1914,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -1800,8 +1927,8 @@
 , 							{
 								"name" : "incdec001",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
 								}
 ,
@@ -2551,8 +2678,12 @@
 						"styles" : [ 							{
 								"name" : "One Dark",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -2562,11 +2693,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -2579,9 +2706,9 @@
 , 							{
 								"name" : "One Dark Button",
 								"default" : 								{
+									"selectioncolor" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"fontsize" : [ 16.0 ],
 									"fontname" : [ "Inconsolata" ],
-									"selectioncolor" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 								}
 ,
@@ -2591,10 +2718,10 @@
 , 							{
 								"name" : "One Dark Num",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 16.0 ],
 									"fontname" : [ "Inconsolata" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ]
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2603,9 +2730,12 @@
 , 							{
 								"name" : "One Dark-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2615,10 +2745,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2628,6 +2755,8 @@
 								"name" : "One Dark-1-1",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -2637,9 +2766,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -2652,9 +2779,12 @@
 , 							{
 								"name" : "One Dark-1-1-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2664,10 +2794,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2677,6 +2804,8 @@
 								"name" : "One Dark-1-1-1-1",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -2686,9 +2815,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -2702,6 +2829,8 @@
 								"name" : "One Dark-1-1-2",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -2711,9 +2840,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -2727,6 +2854,8 @@
 								"name" : "One Dark-1-1-3",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -2736,9 +2865,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -2752,6 +2879,8 @@
 								"name" : "One Dark-1-2",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -2761,9 +2890,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -2776,9 +2903,12 @@
 , 							{
 								"name" : "One Dark-1-2-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2788,10 +2918,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2800,9 +2927,12 @@
 , 							{
 								"name" : "One Dark-1-3",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2812,10 +2942,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2824,9 +2951,13 @@
 , 							{
 								"name" : "One Dark-2",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2836,11 +2967,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2849,8 +2976,12 @@
 , 							{
 								"name" : "One Dark-2-1",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -2860,11 +2991,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -2877,9 +3004,13 @@
 , 							{
 								"name" : "One Dark-2-1-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2889,11 +3020,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2902,9 +3029,13 @@
 , 							{
 								"name" : "One Dark-2-2",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2914,11 +3045,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2927,9 +3054,13 @@
 , 							{
 								"name" : "One Dark-2-3",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2939,11 +3070,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2952,9 +3079,13 @@
 , 							{
 								"name" : "One Dark-3",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2964,11 +3095,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2977,8 +3104,12 @@
 , 							{
 								"name" : "One Dark-3-1",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -2988,11 +3119,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -3005,8 +3132,12 @@
 , 							{
 								"name" : "One Dark-4",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -3016,11 +3147,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -3033,8 +3160,8 @@
 , 							{
 								"name" : "incdec001",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
 								}
 ,
@@ -3454,8 +3581,12 @@
 						"styles" : [ 							{
 								"name" : "One Dark",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -3465,11 +3596,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -3482,9 +3609,9 @@
 , 							{
 								"name" : "One Dark Button",
 								"default" : 								{
+									"selectioncolor" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"fontsize" : [ 16.0 ],
 									"fontname" : [ "Inconsolata" ],
-									"selectioncolor" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 								}
 ,
@@ -3494,10 +3621,10 @@
 , 							{
 								"name" : "One Dark Num",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 16.0 ],
 									"fontname" : [ "Inconsolata" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ]
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3506,9 +3633,12 @@
 , 							{
 								"name" : "One Dark-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3518,10 +3648,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -3531,6 +3658,8 @@
 								"name" : "One Dark-1-1",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -3540,9 +3669,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -3555,9 +3682,12 @@
 , 							{
 								"name" : "One Dark-1-1-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3567,10 +3697,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -3580,6 +3707,8 @@
 								"name" : "One Dark-1-1-1-1",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -3589,9 +3718,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -3605,6 +3732,8 @@
 								"name" : "One Dark-1-1-2",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -3614,9 +3743,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -3630,6 +3757,8 @@
 								"name" : "One Dark-1-1-3",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -3639,9 +3768,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -3655,6 +3782,8 @@
 								"name" : "One Dark-1-2",
 								"default" : 								{
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -3664,9 +3793,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -3679,9 +3806,12 @@
 , 							{
 								"name" : "One Dark-1-2-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3691,10 +3821,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -3703,9 +3830,12 @@
 , 							{
 								"name" : "One Dark-1-3",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3715,10 +3845,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -3727,9 +3854,13 @@
 , 							{
 								"name" : "One Dark-2",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3739,11 +3870,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -3752,8 +3879,12 @@
 , 							{
 								"name" : "One Dark-2-1",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -3763,11 +3894,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -3780,9 +3907,13 @@
 , 							{
 								"name" : "One Dark-2-1-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3792,11 +3923,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -3805,9 +3932,13 @@
 , 							{
 								"name" : "One Dark-2-2",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3817,11 +3948,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -3830,9 +3957,13 @@
 , 							{
 								"name" : "One Dark-2-3",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3842,11 +3973,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -3855,9 +3982,13 @@
 , 							{
 								"name" : "One Dark-3",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontface" : [ 0 ],
 									"fontsize" : [ 14.0 ],
+									"fontname" : [ "Menlo" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3867,11 +3998,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Menlo" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-									"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -3880,8 +4007,12 @@
 , 							{
 								"name" : "One Dark-3-1",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -3891,11 +4022,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -3908,8 +4035,12 @@
 , 							{
 								"name" : "One Dark-4",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"fontsize" : [ 18.0 ],
+									"fontname" : [ "Monaco" ],
+									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -3919,11 +4050,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.0
 									}
-,
-									"fontname" : [ "Monaco" ],
-									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 								}
 ,
 								"comment" : 								{
@@ -3936,8 +4063,8 @@
 , 							{
 								"name" : "incdec001",
 								"default" : 								{
-									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
 								}
 ,
@@ -4129,53 +4256,29 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-132",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 117.0, 29.5, 22.0 ],
-					"style" : "",
-					"text" : "1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-131",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 118.5, 29.5, 22.0 ],
-					"style" : "",
-					"text" : "1"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"color" : [ 0.031373, 0.541176, 0.498039, 1.0 ],
 					"id" : "obj-129",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 86.0, 124.0, 22.0 ],
+					"patching_rect" : [ 360.0, 32.0, 101.0, 22.0 ],
 					"style" : "",
-					"text" : "r set_all_local_tempo"
+					"text" : "r all_local_tempo"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.031373, 0.541176, 0.498039, 1.0 ],
 					"id" : "obj-125",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 86.0, 117.0, 22.0 ],
+					"patching_rect" : [ 144.0, 42.0, 95.0, 22.0 ],
 					"style" : "",
-					"text" : "r set_all_link_tempo"
+					"text" : "r all_link_tempo"
 				}
 
 			}
@@ -4395,7 +4498,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 979.25, 98.0, 102.0, 22.0 ],
+					"patching_rect" : [ 622.25, 49.0, 102.0, 22.0 ],
 					"style" : "",
 					"text" : "r reset_all_layers"
 				}
@@ -4545,23 +4648,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1027.25, 214.0, 80.0, 22.0 ],
+					"patching_rect" : [ 670.25, 165.0, 80.0, 22.0 ],
 					"style" : "",
 					"text" : "s #0_reset_0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
-					"id" : "obj-98",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.5, 450.0, 78.0, 22.0 ],
-					"style" : "",
-					"text" : "r #0_reset_1"
 				}
 
 			}
@@ -4572,7 +4661,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 939.25, 214.0, 80.0, 22.0 ],
+					"patching_rect" : [ 582.25, 165.0, 80.0, 22.0 ],
 					"style" : "",
 					"text" : "s #0_reset_1"
 				}
@@ -4651,7 +4740,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1027.25, 181.5, 29.5, 22.0 ],
+					"patching_rect" : [ 670.25, 132.5, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "0"
 				}
@@ -4664,7 +4753,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 939.25, 183.0, 29.5, 22.0 ],
+					"patching_rect" : [ 582.25, 134.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -4689,7 +4778,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 979.25, 137.5, 61.0, 25.0 ],
+					"patching_rect" : [ 622.25, 88.5, 61.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 685.0, 3.75, 61.0, 25.0 ],
 					"style" : "",
@@ -5117,7 +5206,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 16.5, 16.0, 187.0, 22.0 ],
+					"patching_rect" : [ 7.5, 3.0, 187.0, 22.0 ],
 					"restore" : 					{
 						"beatint" : [ 1 ],
 						"duration[1]" : [ 1.0 ],
@@ -5262,7 +5351,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 924.25, 86.0, 198.0, 163.0 ],
+					"patching_rect" : [ 567.25, 37.0, 198.0, 163.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -5273,6 +5362,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -5341,6 +5437,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-150", 0 ],
 					"source" : [ "obj-108", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -5433,7 +5536,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-132", 0 ],
+					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-125", 0 ]
 				}
 
@@ -5454,22 +5557,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-131", 0 ],
+					"destination" : [ "obj-110", 0 ],
 					"source" : [ "obj-129", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-110", 0 ],
-					"source" : [ "obj-131", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"source" : [ "obj-132", 0 ]
+					"destination" : [ "obj-67", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -5640,6 +5736,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-88", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 4 ],
 					"order" : 1,
 					"source" : [ "obj-2", 0 ]
@@ -5656,6 +5759,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"midpoints" : [ 1259.25, 457.0, 933.75, 457.0 ],
 					"source" : [ "obj-21", 0 ]
@@ -5666,6 +5776,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-108", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -5827,6 +5958,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
 					"source" : [ "obj-71", 0 ]
 				}
@@ -5909,19 +6047,12 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-98", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
-			"obj-108" : [ "live.text[5]", "live.text", 0 ],
-			"obj-110" : [ "live.text[2]", "live.text", 0 ],
-			"obj-88" : [ "live.text[3]", "live.text", 0 ],
 			"obj-106" : [ "live.text[4]", "live.text", 0 ],
+			"obj-110" : [ "live.text[2]", "live.text", 0 ],
+			"obj-108" : [ "live.text[5]", "live.text", 0 ],
+			"obj-88" : [ "live.text[3]", "live.text", 0 ],
 			"obj-42" : [ "live.text[1]", "live.text", 0 ]
 		}
 ,
@@ -5930,8 +6061,12 @@
 		"styles" : [ 			{
 				"name" : "One Dark",
 				"default" : 				{
-					"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontsize" : [ 18.0 ],
+					"fontname" : [ "Monaco" ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+					"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -5941,11 +6076,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Monaco" ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 				}
 ,
 				"comment" : 				{
@@ -5958,9 +6089,9 @@
 , 			{
 				"name" : "One Dark Button",
 				"default" : 				{
+					"selectioncolor" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 					"fontsize" : [ 16.0 ],
 					"fontname" : [ "Inconsolata" ],
-					"selectioncolor" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 					"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 				}
 ,
@@ -5970,10 +6101,10 @@
 , 			{
 				"name" : "One Dark Num",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontsize" : [ 16.0 ],
 					"fontname" : [ "Inconsolata" ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ]
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5982,9 +6113,12 @@
 , 			{
 				"name" : "One Dark-1",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontface" : [ 0 ],
 					"fontsize" : [ 14.0 ],
+					"fontname" : [ "Menlo" ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5994,10 +6128,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Menlo" ],
-					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6007,6 +6138,8 @@
 				"name" : "One Dark-1-1",
 				"default" : 				{
 					"fontsize" : [ 18.0 ],
+					"fontname" : [ "Monaco" ],
+					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -6016,9 +6149,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Monaco" ],
-					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 				}
 ,
 				"comment" : 				{
@@ -6031,9 +6162,12 @@
 , 			{
 				"name" : "One Dark-1-1-1",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontface" : [ 0 ],
 					"fontsize" : [ 14.0 ],
+					"fontname" : [ "Menlo" ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6043,10 +6177,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Menlo" ],
-					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6056,6 +6187,8 @@
 				"name" : "One Dark-1-1-1-1",
 				"default" : 				{
 					"fontsize" : [ 18.0 ],
+					"fontname" : [ "Monaco" ],
+					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -6065,9 +6198,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Monaco" ],
-					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 				}
 ,
 				"comment" : 				{
@@ -6081,6 +6212,8 @@
 				"name" : "One Dark-1-1-2",
 				"default" : 				{
 					"fontsize" : [ 18.0 ],
+					"fontname" : [ "Monaco" ],
+					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -6090,9 +6223,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Monaco" ],
-					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 				}
 ,
 				"comment" : 				{
@@ -6106,6 +6237,8 @@
 				"name" : "One Dark-1-1-3",
 				"default" : 				{
 					"fontsize" : [ 18.0 ],
+					"fontname" : [ "Monaco" ],
+					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -6115,9 +6248,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Monaco" ],
-					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 				}
 ,
 				"comment" : 				{
@@ -6131,6 +6262,8 @@
 				"name" : "One Dark-1-2",
 				"default" : 				{
 					"fontsize" : [ 18.0 ],
+					"fontname" : [ "Monaco" ],
+					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -6140,9 +6273,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Monaco" ],
-					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ]
+
 				}
 ,
 				"comment" : 				{
@@ -6155,9 +6286,12 @@
 , 			{
 				"name" : "One Dark-1-2-1",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontface" : [ 0 ],
 					"fontsize" : [ 14.0 ],
+					"fontname" : [ "Menlo" ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6167,10 +6301,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Menlo" ],
-					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6179,9 +6310,12 @@
 , 			{
 				"name" : "One Dark-1-3",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontface" : [ 0 ],
 					"fontsize" : [ 14.0 ],
+					"fontname" : [ "Menlo" ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6191,10 +6325,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Menlo" ],
-					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"color" : [ 0.670588, 0.698039, 0.74902, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6203,9 +6334,13 @@
 , 			{
 				"name" : "One Dark-2",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontface" : [ 0 ],
 					"fontsize" : [ 14.0 ],
+					"fontname" : [ "Menlo" ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6215,11 +6350,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Menlo" ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6228,8 +6359,12 @@
 , 			{
 				"name" : "One Dark-2-1",
 				"default" : 				{
-					"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontsize" : [ 18.0 ],
+					"fontname" : [ "Monaco" ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+					"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -6239,11 +6374,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Monaco" ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 				}
 ,
 				"comment" : 				{
@@ -6256,9 +6387,13 @@
 , 			{
 				"name" : "One Dark-2-1-1",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontface" : [ 0 ],
 					"fontsize" : [ 14.0 ],
+					"fontname" : [ "Menlo" ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6268,11 +6403,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Menlo" ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6281,9 +6412,13 @@
 , 			{
 				"name" : "One Dark-2-2",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontface" : [ 0 ],
 					"fontsize" : [ 14.0 ],
+					"fontname" : [ "Menlo" ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6293,11 +6428,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Menlo" ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6306,9 +6437,13 @@
 , 			{
 				"name" : "One Dark-2-3",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontface" : [ 0 ],
 					"fontsize" : [ 14.0 ],
+					"fontname" : [ "Menlo" ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6318,11 +6453,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Menlo" ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6331,9 +6462,13 @@
 , 			{
 				"name" : "One Dark-3",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontface" : [ 0 ],
 					"fontsize" : [ 14.0 ],
+					"fontname" : [ "Menlo" ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"textcolor_inverse" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -6343,11 +6478,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Menlo" ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"textcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
-					"color" : [ 0.898039, 0.752941, 0.482353, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -6356,8 +6487,12 @@
 , 			{
 				"name" : "One Dark-3-1",
 				"default" : 				{
-					"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontsize" : [ 18.0 ],
+					"fontname" : [ "Monaco" ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+					"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -6367,11 +6502,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Monaco" ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 				}
 ,
 				"comment" : 				{
@@ -6384,8 +6515,12 @@
 , 			{
 				"name" : "One Dark-4",
 				"default" : 				{
-					"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"fontsize" : [ 18.0 ],
+					"fontname" : [ "Monaco" ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
+					"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.129412, 0.145098, 0.168627, 1.0 ],
@@ -6395,11 +6530,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.0
 					}
-,
-					"fontname" : [ "Monaco" ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"textcolor" : [ 0.8, 0.8, 0.780392, 1.0 ],
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
+
 				}
 ,
 				"comment" : 				{
@@ -6412,8 +6543,8 @@
 , 			{
 				"name" : "incdec001",
 				"default" : 				{
-					"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"elementcolor" : [ 0.670588, 0.698039, 0.74902, 1.0 ],
 					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
 				}
 ,
